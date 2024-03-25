@@ -1,0 +1,129 @@
+.previewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.previewTitle {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 34px;
+  color: #07393C;
+}
+
+.bannerAdPreview,
+.phoneMockup {
+  position: relative;
+  width: 231px;
+  height: 476px;
+  border: 3px solid black;
+  /* Simulates the bezel */
+  border-radius: 22px;
+  /* Curved corners similar to modern iPhones */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  /* Drop shadow around the bezel */
+}
+
+.staticTopBar,
+.staticTopBarOther,
+.staticBottomBar,
+.staticBottomBarOther {
+  width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  /* Prevents resizing */
+}
+
+.adContainer {
+  z-index: 10;
+  width: 90%;
+  text-align: center;
+  margin: 8px 0;
+  /* Adds margin to ensure padding between elements */
+}
+
+.dynamicMiddleImage,
+.dynamicMiddleImageOther {
+  flex-grow: 1;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.adBanner,
+.adBannerOther {
+  max-width: 100%;
+  margin-top: 8px;
+}
+
+.adBannerOther {
+  max-width: 100%;
+}
+
+.adText,
+.adTextOther {
+  font-size: 8px;
+  color: #333;
+}
+
+.shadowOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Shadow effect */
+  z-index: 5;
+  /* Ensure it's below the notification box but above the images */
+}
+
+.notificationBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 82%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  /* Slightly curved edges for the notification box */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  /* Notification shadow */
+  z-index: 20;
+  /* Above the shadow overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.exitButton {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #fff;
+  /* Light background for visibility */
+  border-radius: 0 4px 0 0;
+  /* Rounded corner on the top-right side */
+  font-weight: lighter;
+  font-size: x-small;
+}
+
+.previewDisclaimer {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-top: 16px;
+  width: 50%;
+}

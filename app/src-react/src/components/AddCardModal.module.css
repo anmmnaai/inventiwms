@@ -1,0 +1,199 @@
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: #828282;
+    opacity: .8;
+    position: fixed;
+    z-index: -1;
+}
+
+.closeModalIcon {
+    width: 19px;
+    align-self: flex-end;
+    margin-bottom: 25px;
+}
+
+.fullLengthContainer, .halfLengthContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.emailAddressContainer {
+    width: 656px;    
+    border-radius: 16px;
+}
+
+.fullLengthInput {
+    width: 656px;
+    height: 53px;
+    border: 1px solid #D4DEE1;
+    border-radius: 16px;
+}
+
+.halfLengthInput {
+    width: 313px;
+    height: 53px;
+    border: 1px solid #D4DEE1;
+    border-radius: 16px;
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 869px;
+    max-height: 1684px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 27px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.cardInformationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.halfLengthMainContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.modalTitle {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    margin-bottom: 50px;
+    margin-right: 46px;
+    /* negro */
+    color: #07393C;    
+}
+
+.billingInformationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.billingInformationTitle {
+    align-self: flex-start;
+    
+}
+
+.billingInformationContainer {
+    
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.zipcodeInput {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.emailAddressContainer {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cancelButton {
+
+    width: 144px;
+    height: 64px;
+    border-radius: 133px;
+    border: 1px solid #07393C;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.saveCard {
+    width: 314px;
+    height: 64px;
+    border-radius: 133px;
+    background-color: #90DDF0;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    align-self: flex-start;
+    margin-left: 82px;
+}
+
+.billingInformationTitle {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+
+.formLabel {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+
+    color: #0A090C;
+}
+
+.emailLabel {
+    
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #0A090C;
+}
+
+.emailInputdDescription {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+
+    color: #000000;
+}
+
+.halfLengthInput::placeholder {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+
+    /* Gray 3 */
+    color: #828282;
+}
+
+.cardNameIcon {
+    background: url("../assets/cardIcon.png") no-repeat right;
+    background-size: 42px;
+    background-position: calc(100% - 13px) center;
+}
+
+.cvvIcon {
+    background: url("../assets/cvvIcon.png") no-repeat right;
+    background-size: 42px;
+    background-position: calc(100% - 13px) center;
+}

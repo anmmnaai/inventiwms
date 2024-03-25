@@ -1,0 +1,204 @@
+.modalcss {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99;
+}
+
+.page {
+	width: 78%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.pageHeader {
+	font-weight: 700;
+	font-size: 32px;
+	color: #07393c;
+	font-family: Glacial Indifference Bold;
+	font-variant-ligatures: none;
+	margin-bottom: 0px;
+	line-height: 38px;
+}
+
+.header {
+	font-family: Glacial Indifference;
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.subhead {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2c666e;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.timelineHeader {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2c666e;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	display: grid;
+	/* Change this pls its scuffed rn */
+	grid-template-columns: minmax(680px, 1fr) minmax(230px, 310px);
+	grid-template-rows: auto auto auto;
+	gap: 19px;
+	margin-top: 40px;
+}
+
+.boxLeft {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 16px;
+	border-color: #d4dee1;
+	padding: 8px 15px 11px 15px;
+	grid-column: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.subWrapper {
+	display: flex;
+	align-items: flex-start;
+}
+
+.label {
+	color: #2c666e;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.price {
+	margin-right: auto;
+	margin-left: 70px;
+}
+
+.field {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 16px;
+	border-color: #d4dee1;
+	width: 200px;
+	height: 46px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 53px;
+	padding-left: 14px;
+	display: flex;
+	align-items: center;
+}
+
+.dateButton {
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 16px;
+	background-color: white;
+	border-color: #d4dee1;
+	width: 270px;
+	height: 48px;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0 13px 0 13px;
+}
+
+.buttonFlex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.datePickerOverlay {
+	position: absolute;
+	top: calc(100% + 8px);
+	border-radius: 16px;
+	background-color: white;
+	border: 1px solid #d4dee1;
+	z-index: 999;
+}
+
+.vl {
+	border-right: 1px solid #d4dee1;
+	padding-right: 12px;
+	margin-right: 12px;
+	display: inline-block;
+	height: 50%;
+}
+
+.currency {
+	color: #2c666e;
+}
+
+.boxRight {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 16px;
+	border-color: #d4dee1;
+	grid-column: 2;
+}
+
+.headerRight {
+	font-family: Glacial Indifference;
+	font-size: 28px;
+	font-weight: 400;
+	padding: 19px;
+	text-align: center;
+	border-bottom: 1px solid #d4dee1;
+}
+
+.line {
+	background-color: #d4dee1;
+	height: 1px;
+	border: 0;
+	margin: auto;
+	width: calc(100% + 34px);
+	margin-left: -23px;
+}
+
+.checkoutText {
+	display: grid;
+	gap: 0;
+	font-size: 16px;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	color: #4f4f4f;
+	padding: 0 14px 0 14px;
+}
+
+.rightJustify {
+	text-align: right;
+}
+
+.bold {
+	font-family: Glacial Indifference Bold;
+}
+
+.boldRight {
+	font-family: Glacial Indifference Bold;
+	text-align: right;
+}
+
+.tzFont {
+	font-weight: 400;
+	font-size: 16px;
+	margin-left: 15px;
+	margin-bottom: 0;
+	margin-top: 59px;
+}
+
+.dialog {
+	padding: 0;
+	border-width: 1px;
+	border-radius: 16px;
+	border-color: #d4dee1;
+	margin-top: 6px;
+}

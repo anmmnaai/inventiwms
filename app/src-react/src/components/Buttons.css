@@ -1,0 +1,25 @@
+/* Buttons.css */
+.button-container {
+  margin-top: 40px;
+  margin-left: 64.89px;
+  display: flex;
+}
+
+.button-container img {
+  margin-right: 15px; /* Add spacing between the images */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.button-container img:hover {
+  opacity: 0.8; /* Reduce opacity when mouse hovers over */
+}
+
+.button-container img:active {
+  transform: translateY(1px); /* Add a slight downward shift when clicked */
+}
+/* Buttons.css */
+
+.createC{
+  margin-top: 40px;
+  margin-left: -1400px;
+}

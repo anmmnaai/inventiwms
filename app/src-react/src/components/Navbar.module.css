@@ -1,0 +1,75 @@
+.navbarContainer {
+    padding: 7px 10px 7px 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 55px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #90DDF0;
+}
+
+.navbarLeftContainer,
+.navbarRightContainer {
+    display: flex;
+}
+
+.navbarLeftContainer {
+    align-items: center;
+    gap: 5px;
+}
+
+.navbarRightContainer {
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarMynglyLogo {
+    height: 34.3px;
+}
+
+.navbarTitlePage {
+
+
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height */
+    display: flex;
+    /* darkblue */
+    color: #2C666E;
+}
+
+.navbarProfileName {
+    
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2C666E;
+}
+
+.navbarProfileImgContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navbarProfileImg {
+    height: 34.58px;
+    width: 34.58px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbarDropdown {
+    height: 13px;
+    width: 14px;
+}

@@ -1,0 +1,68 @@
+.mainContainer {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 210px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D4DEE1;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.topOfAd {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.adName {
+    box-sizing: border-box;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #07393C;
+}
+
+.bottomOfAd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.adImg {
+    width: 152.84px;
+    height: 304.72px;
+}
+
+.adDescription {
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2C666E;
+    text-align: center;
+}
+
+.adButton {
+    padding: 0;
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: 1px solid #D1DBDE;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.adButton:focus {
+    background-color: #2C666E;
+    border: 1px solid #D1DBDE;
+    box-shadow: 0 0 0 1px#2C666E;
+    outline: #2C666E; /* Remove the default focus outline */
+}

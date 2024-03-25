@@ -1,0 +1,84 @@
+/* Header.css */
+
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/GlacialIndifference-Regular.ttf') format('truetype');
+}
+
+.header-container {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 19.85333333px;
+  font-family: 'GlacialIndifference-Regular';
+}
+
+.top-left img {
+  width: 46.4266667px;
+  height: 34.4px;
+}
+
+.top-right img {
+  width: 48.3333333px;
+  height: 48.3333333px;
+  margin-top: -9.37px;
+}
+
+
+.top-left .campaign-manager {
+  
+  font-size: 26.6666667px;
+  color: rgb(0, 130, 156);
+  margin-top: -3px;
+  margin-left: 19.72px;
+  font-weight: 400;
+}
+
+.top-right .campaign-manager {
+  font-size: 24px;
+  width: 160px;
+  height: 29.33333333px;
+  color: rgba(44, 102, 110, 1);
+  margin-bottom: 19.33333333px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.top-left,
+.top-right {
+  display: flex;
+}
+
+.top-right {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+#horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(144, 221, 240);
+  margin-top: -19.48px;
+}

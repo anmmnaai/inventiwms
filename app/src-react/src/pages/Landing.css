@@ -1,0 +1,139 @@
+.logo1 {
+	position: absolute;
+	width: 119.66px;
+	height: 88.66px;
+	top: 19.85px;
+	left: 53.19px;
+}
+
+.logo2 {
+	position: absolute;
+	width: 167.69px;
+	height: 61.62px;
+	top: 20.26px;
+	left: 187.05px;
+}
+
+.logo3 {
+	position: absolute;
+	width: 167.69px;
+	height: 14.29px;
+	left: 187.05px;
+	top: 92.56px;
+}
+
+.sign_btn {
+	position: absolute;
+	background: white;
+
+	width: 141.33px;
+	height: 64px;
+	top: 32px;
+	left: 1482.67px;
+	border-radius: 133.33px;
+	border: 1.5px;
+	border-color: #07393c;
+	border-style: solid;
+}
+
+.sign_text {
+	font-family: "Glacial Indifference";
+	font-size: 21.33px;
+	font-weight: 500;
+	line-height: 25.33px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #2c666e;
+}
+
+.start_btn {
+	position: absolute;
+	width: 222.67px;
+	height: 64px;
+	border-radius: 133.3px;
+	top: 32px;
+	left: 1634.67px;
+	background: #90ddf0;
+	border-color: #90ddf0;
+	border: 1.5px;
+}
+
+.start_text {
+	font-family: "Glacial Indifference";
+	font-size: 21.33px;
+	font-weight: 500;
+	line-height: 25.33px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #2c666e;
+}
+
+.launch_btn {
+	position: absolute;
+	width: 222.67px;
+	height: 64px;
+	border-radius: 133.3px;
+	top: 805.33px;
+	left: 206.67px;
+	background: #90ddf0;
+	border-color: #90ddf0;
+	border: 1.5px;
+}
+
+.launch_text {
+	font-family: "Glacial Indifference";
+	font-size: 21.33px;
+	font-weight: 500;
+	line-height: 25.33px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #2c666e;
+}
+.main_text {
+	position: absolute;
+	font-family: "Glacial Indifference";
+	font-size: 90px;
+	font-weight: 505;
+	line-height: 95.92px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #07393c;
+	width: 740px;
+	height: 384px;
+	top: 232px;
+	left: 206.66px;
+	border: 1.2px;
+}
+
+.lower_text {
+	position: absolute;
+	width: 740px;
+	left: 206.66px;
+
+	height: 82.67px;
+	top: 664px;
+	border: 0.4px;
+	font-family: "Glacial Indifference";
+	font-size: 34.67px;
+	font-weight: 500;
+	line-height: 41.33px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #07393c;
+}
+
+.placeholder {
+	position: absolute;
+	width: 761.2px;
+	height: 637.33px;
+	top: 232px;
+	left: 1065.76px;
+	background: #e8e8e8;
+}
+
+.modalcss {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99;
+}

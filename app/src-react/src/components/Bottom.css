@@ -1,0 +1,76 @@
+/* Bottom.css */
+
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/GlacialIndifference-Regular.ttf') format('truetype');
+}
+
+.bottom-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top:  150px;
+}
+
+.horiLine {
+  margin-top: 50px;
+  width: 99.9%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.bottom-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  padding: 10px;
+}
+
+.logo {
+  width: 88.16px;
+  height: 65.33333333px;
+  margin-left: 44.21px;
+}
+
+.name {
+  width: 123.5466667px;
+  height: 45.41333333px;
+  margin-left: 6px;
+  margin-top: 1.25px;
+}
+
+.slogan {
+  width: 123.5466667px;
+  height: 10.53333333px;
+  margin-top: 25px;
+  margin-left: -78px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-family: 'GlacialIndifference-Regular';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.help-link {
+  margin-right: 80px;
+  text-decoration: none;
+  color: #90DDF0;
+  margin-bottom: 10px;
+}
+
+.privacy-link {
+  color: #2C666E;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 7.5px;
+}

@@ -1,0 +1,85 @@
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 87px;
+	background-color: white;
+}
+
+.progressBar {
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.active,
+.notActive {
+	border-radius: 64px;
+	height: 5px;
+}
+
+.active {
+	background-color: #90ddf0;
+	flex-grow: 1;
+}
+
+.notActive {
+	background-color: #d9d9d9;
+	flex-grow: 1;
+}
+
+.active:empty:after {
+	content: ".";
+	visibility: hidden;
+}
+
+.notActive:empty:after {
+	content: ".";
+	visibility: hidden;
+}
+
+.backButton {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	color: black;
+	font-family: "Glacial Indifference";
+	font-weight: 700;
+	font-size: 16px;
+	color: #2c666e;
+	text-decoration: underline;
+	margin-left: 50px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.nextButton {
+	width: 167px;
+	height: 48px;
+	background-color: #90ddf0;
+	border-radius: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Glacial Indifference";
+	font-weight: 400;
+	font-size: 16px;
+	color: #2c666e;
+	cursor: pointer;
+}
+
+.bottomOfFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 15px 40px;
+}

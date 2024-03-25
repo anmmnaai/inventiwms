@@ -1,0 +1,184 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding-left: 59px; /* Add left padding */
+    max-width: 1046.2px; /* Set a max-width to align with the design */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+    box-sizing: border-box; /* Make sure padding doesn't affect the overall width */  
+}
+
+.formHeader {
+    font-weight: 700;
+    font-size: 32px;
+    color: #07393c;
+    font-family: Glacial Indifference Bold;
+    font-style: normal;
+    font-variant-ligatures: none;
+    margin-bottom: 0px;
+}
+
+.formTitle {
+    font-size: 32px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: #07393C;
+}
+
+.formDescription {
+    margin-top: 0px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2C666E;
+}
+
+.adForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldsWrapper {
+    padding: 20px;
+    border: 1px solid #D4DEE1;
+    border-radius: 12px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.labelAdForm {
+    font-size: 28px;
+    margin-bottom: 4px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    color: #000000;
+
+}
+
+.fieldDescription {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    color: #2C666E;
+
+
+}
+
+.textareaWrapper {
+    position: relative;
+    padding: 10px;
+    /* Adjust padding to ensure there's space for the character count */
+    box-sizing: border-box;
+    background: #FFFFFF;
+    /* border */
+    border: 1px solid #D4DEE1;
+    border-radius: 12px;
+}
+
+
+.textarea {
+    width: calc(100% - 100px);
+    /* Adjust width to account for padding */
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    height: 50px;
+    overflow-y: hidden;
+    /* Prevent scrollbar appearance */
+    resize: none;
+    /* If resizing is not desired */
+
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2C666E;
+
+    padding: 10px 20px;
+    text-align: justify;
+
+}
+
+.charCount {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2C666E;
+
+
+}
+
+.fileInput {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.uploadButton {
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D4DEE1;
+    border-radius: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.uploadButton:hover {
+    background-color: #0056b3;
+    /* Darker shade for hover effect */
+}
+
+
+.labelAdForm[type="text"] {
+    width: 100%;
+    margin-top: 10px;
+    color: #2C666E;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D4DEE1;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Glacial Indifference';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration-line: underline;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.invalidInput {
+    border: 1px solid #ff0000;
+    /* Red border for invalid fields */
+}

@@ -1,0 +1,111 @@
+.header {
+	font-family: Glacial Indifference;
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.numLabel {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2c666e;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.subhead {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2c666e;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.inputLabel {
+	font-weight: 400;
+	font-size: 14px;
+	color: #2c666e;
+	margin-top: 22px;
+	margin-bottom: 8px;
+}
+
+.inputBox {
+	height: 36px;
+	border-radius: 12px;
+	border: 1px;
+	border-style: solid;
+	border-color: #d4dee1;
+	margin-top: 0;
+}
+
+.slider {
+	margin-top: 26px;
+	-webkit-appearance: none;
+	appearance: none;
+	max-width: 533px;
+	height: 5px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	background-color: rgba(255, 0, 0, 0);
+	/* background-color: rgba(0, 0, 0, 0); */
+}
+
+.bar {
+	width: 523px;
+	height: 5px;
+	margin-top: -10px;
+	margin-left: 5px;
+	border-radius: 3px;
+	z-index: -1;
+}
+
+/* Track: webkit browsers */
+.slider::-webkit-slider-runnable-track {
+	height: 5px;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 12px;
+}
+
+/* Track: Mozilla Firefox */
+.slider::-moz-range-track {
+	height: 5px;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 12px;
+	width: 90%;
+}
+/* Thumb: webkit */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 21px;
+	width: 21px;
+	background-color: #2c666e;
+	border-radius: 50%;
+	border: none;
+	margin-top: -8px; /* Center vertically */
+}
+
+/* Thumb: Firefox */
+.slider::-moz-range-thumb {
+	height: 21px;
+	width: 21px;
+	background-color: #2c666e;
+	border-radius: 50%;
+	border: none;
+}
+
+.map {
+	width: 401px;
+	margin-top: 18px;
+}
+
+/* Thumb before: Firefox */
+/* .slider::-moz-range-progress {
+	background-color: #2c666e;
+	border-radius: 12px;
+	height: 6px;
+} */

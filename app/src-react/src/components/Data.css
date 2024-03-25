@@ -1,0 +1,94 @@
+/* Data.css */
+
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/GlacialIndifference-Regular.ttf') format('truetype');
+}
+
+.boxes {
+  font-family: 'GlacialIndifference-Regular';
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally */
+  margin-top: 45px;
+}
+
+.box {
+  width: 250px;
+  height: 117.3333333px; /* Adjusted height */
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative; /* Positioning for the line */
+  margin: 0 25px; /* Adjusted margin for minimal space between boxes */
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
+
+
+/* Styling for the line */
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 50%; /* Positioning the line below the first row */
+  left: 0; /* Align the line with the box */
+}
+.sub-texts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-text1 {
+  width: 48px;
+  height: 22.66666667px;
+  font-size: 18.66666667px;
+  margin-top: 22px;
+  margin-left: 10px;
+  font-weight: 500
+}
+
+.sub-text2 {
+  margin-top: 22px;
+  margin-left: -10px;
+  color:rgb(1, 158, 64);
+  background-color: rgb(190, 247, 190);
+}
+
+.arrow {
+  height: 25px;
+  margin-top: 22px;
+  margin-left: -8px;
+  background-color: rgb(190, 247, 190);
+}
+
+.sub-text3 {
+  margin-top: 24px;
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+.icon {
+  width: 42.66666667px;
+  height: 42.66666667px;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+#horizontal-line2 {
+  width: 94.444%;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 35px;
+  margin-left: 50px;
+}

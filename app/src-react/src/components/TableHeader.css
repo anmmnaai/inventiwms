@@ -1,0 +1,103 @@
+/* TableHeader.css */
+
+@font-face {
+  font-family: 'Termina Test';
+  src: url('../fonts/TerminaTest-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/GlacialIndifference-Regular.ttf') format('truetype');
+}
+
+.table-header-box {
+    display: flex;
+    justify-content: center;
+    padding: px;
+  }
+  
+  .table-header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    width: calc(90%);
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 0px 0px;
+    padding: 15px;
+    margin-left: 68.11px;
+    font-family: 'GlacialIndifference-Regular';
+  }
+  
+  .table-header > div {
+    flex: 1;
+  }
+  
+  /* Adjust styles for ID */
+  .id {
+    font-size: 12px;
+    margin-left: -5px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+  
+  /* Adjust styles for IMAGE */
+  .image {
+    font-size: 12px;
+    margin-left: -45px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+  
+  /* Adjust the width for the other elements */
+  .tableName {
+    font-size: 12px;
+    margin-left: 20px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+  
+  .status {
+    font-size: 12px;
+    margin-left: 190px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+
+  .show {
+     font-size: 12px;
+     margin-left: 40px;
+     font-family: Termina Test;
+     font-weight: 600;
+  }
+
+  .published {
+     font-size: 12px;
+     margin-left: 20px;
+     font-family: Termina Test;
+     font-weight: 600;
+  }
+
+  .delete {
+    font-size: 12px;
+    margin-left: 60px;
+	margin-right: 50px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+
+  .edit {
+    font-size: 12px;
+    margin-right: 250px;
+    margin-left: px;
+    font-family: Termina Test;
+    font-weight: 600;
+  }
+
+.table-description {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'GlacialIndifference-Regular';
+}
+  
