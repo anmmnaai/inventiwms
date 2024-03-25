@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/img/logo.jpge" alt="inventiwms logo" width="200" height="auto" />
+  <img src="static/img/logo.jpeg" alt="inventiwms logo" width="200" height="auto" />
   <h1>InventiWMS</h1>
   <p>Inventi-Sell - Inventory Management System </p>
 
